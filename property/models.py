@@ -7,4 +7,5 @@ class Property(models.Model):
     image = models.ImageField(upload_to='images/')
     bedrooms = models.IntegerField()
     bathrooms = models.IntegerField()
+    landsize_sqm = models.IntegerField(null=True, blank=True)
     price = models.DecimalField(max_digits=10, decimal_places=2)
