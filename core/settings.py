@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'seoswtzl_funnelapi',
-        'USER': 'seoswtzl_funnelapi',
-        'PASSWORD': '9_w?M;a~tW{y',
-        'HOST': '162.0.209.67',   # Or an IP Address that your DB is hosted on
+        'NAME': 'api',
+        'USER': 'root',
+        'PASSWORD': 'wag78xms',
+        'HOST': 'localhost',   # Or an IP Address that your DB is hosted on
         'PORT': '3306',
         "OPTIONS": {
             # Tell MySQLdb to connect with 'utf8mb4' character set
